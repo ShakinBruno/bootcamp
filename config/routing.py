@@ -1,4 +1,4 @@
-from django.conf.urls import url
+from django.urls import re_path
 
 from channels.auth import AuthMiddlewareStack
 from channels.routing import ProtocolTypeRouter, URLRouter
@@ -16,8 +16,8 @@ application = ProtocolTypeRouter(
             AuthMiddlewareStack(
                 URLRouter(
                     [
-                        url(r"^notifications/$", NotificationsConsumer),
-                        url(r"^(?P<username>[^/]+)/$", MessagerConsumer),
+                        re_path(r"^notifications/$", NotificationsConsumer),
+                        re_path(r"^(?P<username>[^/]+)/$", MessagerConsumer),
                     ]
                 )
             )
