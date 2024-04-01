@@ -17,6 +17,7 @@ django-environ  # https://github.com/joke2k/django-environ
 django-markdownx  # https://github.com/neutronX/django-markdownx
 django-redis  # https://github.com/niwinz/django-redis
 django-taggit  # https://github.com/alex/django-taggit
+django-debug-toolbar  # https://github.com/jazzband/django-debug-toolbar
 sorl-thumbnail  # https://github.com/jazzband/sorl-thumbnail
 
 # Channels
