@@ -25,6 +25,7 @@ sorl-thumbnail  # https://github.com/jazzband/sorl-thumbnail
 # ------------------------------------------------------------------------------
 channels  # https://github.com/django/channels
 channels-redis  # https://github.com/django/channels_redis
+daphne  # https://github.com/django/daphne
 
 # GraphQL API
 # ------------------------------------------------------------------------------
