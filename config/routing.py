@@ -1,3 +1,4 @@
+from django.core.asgi import get_asgi_application
 from django.urls import re_path
 
 from channels.auth import AuthMiddlewareStack
@@ -12,6 +13,7 @@ from bootcamp.notifications.consumers import NotificationsConsumer
 
 application = ProtocolTypeRouter(
     {
+        "http": get_asgi_application(),
         "websocket": AllowedHostsOriginValidator(
             AuthMiddlewareStack(
                 URLRouter(
