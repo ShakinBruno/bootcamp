@@ -21,6 +21,10 @@ django-debug-toolbar  # https://github.com/jazzband/django-debug-toolbar
 django-extensions  # https://github.com/django-extensions/django-extensions
 sorl-thumbnail  # https://github.com/jazzband/sorl-thumbnail
 
+# Bootstrap
+# ------------------------------------------------------------------------------
+crispy-bootstrap4  # https://github.com/django-crispy-forms/crispy-bootstrap4
+
 # Channels
 # ------------------------------------------------------------------------------
 channels  # https://github.com/django/channels

@@ -65,6 +65,7 @@ DJANGO_APPS = [
 ]
 THIRD_PARTY_APPS = [
     "crispy_forms",
+    "crispy_bootstrap4",
     "sorl.thumbnail",
     "allauth",
     "allauth.account",
@@ -201,6 +202,7 @@ TEMPLATES = [
     }
 ]
 # http://django-crispy-forms.readthedocs.io/en/latest/install.html#template-packs
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
 CRISPY_TEMPLATE_PACK = "bootstrap4"
 
 # FIXTURES
