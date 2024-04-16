@@ -56,7 +56,7 @@ class Article(models.Model):
         _("Featured image"), upload_to="articles_pictures/%Y/%m/%d/"
     )
     timestamp = models.DateTimeField(auto_now_add=True)
-    title = models.CharField(max_length=255, null=False, unique=True)
+    title = models.CharField(max_length=255, null=False)
     slug = models.SlugField(max_length=80, null=True, blank=True)
     status = models.CharField(max_length=1, choices=STATUS, default=DRAFT)
     content = MarkdownxField()

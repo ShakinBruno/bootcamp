@@ -76,7 +76,7 @@ class Question(models.Model):
     DRAFT = "D"
     STATUS = ((OPEN, _("Open")), (CLOSED, _("Closed")), (DRAFT, _("Draft")))
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
-    title = models.CharField(max_length=200, unique=True, blank=False)
+    title = models.CharField(max_length=200, blank=False)
     timestamp = models.DateTimeField(auto_now_add=True)
     slug = models.SlugField(max_length=80, null=True, blank=True)
     status = models.CharField(max_length=1, choices=STATUS, default=DRAFT)
