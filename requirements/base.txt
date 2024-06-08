@@ -29,7 +29,7 @@ crispy-bootstrap4  # https://github.com/django-crispy-forms/crispy-bootstrap4
 # ------------------------------------------------------------------------------
 channels  # https://github.com/django/channels
 channels-redis  # https://github.com/django/channels_redis
-daphne  # https://github.com/django/daphne
+uvicorn  # https://github.com/encode/uvicorn
 
 # GraphQL API
 # ------------------------------------------------------------------------------
