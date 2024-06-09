@@ -2,7 +2,7 @@
 # ------------------------------------------------------------------------------
 argon2-cffi  # https://github.com/hynek/argon2_cffi
 python-slugify  # https://github.com/un33k/python-slugify
-Pillow  # https://github.com/python-pillow/Pillow
+pillow  # https://github.com/python-pillow/Pillow
 pytz  # https://github.com/stub42/pytz
 redis  # https://github.com/antirez/redis
 whitenoise  # https://github.com/evansd/whitenoise
